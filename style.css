@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background: rebeccapurple;
+}
+.geral0 {
+    background: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+.logo {
+    padding: 10px;
+}
+i#burguer {
+    color: white;
+    display: block;
+    cursor: pointer;
+}
+.nav {
+    display: none;
+}
+header ul li {
+    list-style: none;
+    float: right;
+    padding: 10px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    background: red;
+    cursor: pointer;
+    transition: .5s;
+}
+@media (max-width: 850px) {
+    
+    
+}
