@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,37 +15,86 @@
 </head>
 <body>
     <header>
-        <div class="geral0">
-            <div>
-                <img class="logo" src="img/photo_library_svg.svg" alt="LOGO">
-            </div>
-            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-            <div class="nav" id="nav">    
-                <nav>
-                    <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Pré-inscrição</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+        <div class="cabecalho"> 
+            <div class="blur">
+                <div class="cabecalho">
+                        <div>
+                            <h1>logo</h1>
+                        </div>
+                </div>
+            </div>  
+        </div>          
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="botao-nav"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Parceiros</a></li>            
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Doações</a></li>
+            </ul>
+        </nav>  
+        <script src="scriptnav.js"></script>
     </header>
     <main>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores perspiciatis odit aut earum aspernatur necessitatibus enim est repellat, ipsum, consequuntur reprehenderit beatae quis. Praesentium itaque veritatis quibusdam reprehenderit corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi qui et, nesciunt dolor dolorem quibusdam ad facilis, vero ut tempore ab vel nemo assumenda fugiat eos ullam aspernatur illo labore?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur porro laudantium magni atque, culpa fugiat velit praesentium illum quaerat voluptatem nobis adipisci, soluta quo aperiam dicta officia nisi deserunt a.</p>
+        <section name="first">
+            <div class="foto1">
+                <div class="blur-citacao">
+                    <div class="text-intro">
+                        <blockquote class="title" cite="https://www.google.com/search?sa=X&q=Em+Busca+do+Tempo+Perdido&stick=H4sIAAAAAAAAAONgFuLQz9U3MLUoK1ACs7JMc_O0BBxLSzLyi0LynfLzs_3zcioXsUq65io4lRYnJyqk5CuEpOYW5CsEpBalZKbk72BlBACkxXVTRwAAAA&ved=2ahUKEwis-Z3_m8f6AhUjr5UCHfSHC2gQxA16BAheEAU&biw=1366&bih=649&dpr=1#" name="Em Busca Pelo Tempo Perdido">
+                            <q>Os laços que unem outras pessoas a nós só existe na nossa mente</q> - Proust 
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="second">
+            <div class="geral2">
+                <div class="mgr">
+                    <h1 class="titulo1">O seu perfil literario na palma de sua mão</h1>
+                    <div class="conteudo1">
+                        <div>
+                            <p>Na sua estante virtual você poderá interagir diretamente com escritores famosos, montar grupos de leitura com amigos e receber descontos exclusivos direto pelas editoras.</p>
+                        </div>
+                        <div class="img-cont">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third">
+            <div>
+                <div class="fundo1">
+                    <div style="padding-top: 7%;">
+                        <div>
+                            <div class="geral-blur">
+                                <div class="conteudo2">
+                                    <div>
+                                        <img class="woman" src="" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="title-woman">
+                                            titulo
+                                        </div>
+                                        <div class="paragrafo-woman">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio maxime optio eius exercitationem rem praesentium tempora enim deleniti, dicta autem delectus voluptate velit veniam, sequi mollitia qui explicabo. Doloremque, sequi.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer>
 
     </footer>
-    <script>
-        function clickMenu() {
-           if (nav.style.display == 'block') {
-            nav.style.display = 'none'
-           } else {
-            nav.style.display = 'block'
-           } 
-        }
-    </script>
 </body>
 </html>
