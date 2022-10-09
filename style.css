@@ -59,7 +59,7 @@ header {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.20);
 }
 header h1 {
-    color:var(--cor4);
+    color:var(--cor6);
     padding: 10px;
     font-family: var(--font1);
     font-size: 3em;
@@ -69,7 +69,7 @@ header h1 {
     margin: auto;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.281);
 }
 header ul {
     margin: 0px;
@@ -102,7 +102,7 @@ header a:hover {
 }
 .text-intro {
     font-family: var(--font1);
-    color: black;
+    color: var(--cor6);
     font-size: 40px;
 }
 .border-1 {
@@ -235,8 +235,23 @@ header a:hover {
     .g-principal {
         margin-left: 0px;
     }
+    .mgr {
+        width: 420px;
+    }
     .screen1 {
         padding-left: 0px;
+    }
+    footer p {
+        text-align: justify;
+    }
+    .img-trofeu {
+        display: none;
+    }
+    .screen-footer {
+        width: 430px;
+    }
+    .geral-footer {
+        padding: none;
     }
 }
 .foto1 {
@@ -247,7 +262,7 @@ header a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    box-shadow: inset 0px 0px 12px -2px #000;
+    box-shadow: inset 0px 0px 8px -2px var(--cor4);
 }
 .blur-citacao {
     text-align: center;
@@ -305,7 +320,7 @@ header a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    box-shadow: inset 0px 0px 12px -2px #000;
+    box-shadow: inset 0px 0px 8px -2px var(--cor4);
 }
 .transparent {
     text-align: center;
@@ -317,10 +332,10 @@ header a:hover {
     border-radius: 10px;
     max-width: 1000px;
     border: 1px solid;
-    background-color: rgba(255, 255, 255, 0.726);
+    background-color: rgba(255, 255, 255, 0.890);
 }
 .titulo2 {
-    color: var(--cor4);
+    color: var(--cor6);
     text-align: center;
     font-size: 35px;
 }
@@ -375,17 +390,77 @@ main ul li {
     font-style: italic;
     color: var(--cor1);
 }
-
 .geral5 {
     background-image: url(img-site/business-team-meeting-boardroom.jpg);
     background-color: #cccccc;
-    height: 500px;
+    height: 600px;
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    box-shadow: inset 0px 0px 12px -2px #000;
+    box-shadow: inset 0px 0px 8px -2px var(--cor4);
 }
 .paragrafo5 {
     color: var(--cor5);
+    text-align: justify;
+    font-size: 20px;
+    font-family: var(--font1);
+    padding: 10px;
+}
+.p5 {
+    text-indent: 1.5em;
+    padding: 5px;
+}
+footer h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--font1);
+    font-style: italic;
+    padding-top: 10px;
+    color: var(--cor1);
+}
+footer ul {
+    list-style: none;
+}
+footer ul li {
+    padding-bottom: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 10px;
+}
+footer a:hover {
+    transition: .5s;
+    font-style: italic;
+}
+.geral-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.fim {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    padding-top: 5px;
+}
+footer h3 {
+    text-align: center;
+    color: var(--cor1);
+}
+.img-trofeu {
+    width: 100px;
+    height: 100px;
+}
+.footer1 {
+    background: var(--cor5);
 }
