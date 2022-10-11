@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <script src="script.js" defer></script> 
     <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <title>Pagina inicial</title>
 </head>
 <body>
@@ -18,21 +18,22 @@
         <div class="cabecalho"> 
             <div class="blur">
                 <div class="cabecalho">
-                        <div>
-                            <h1>logo</h1>
-                        </div>
+                    <div>
+                        <h1>logo</h1>
+                    </div>
                 </div>
             </div>  
         </div>          
-        <nav id="nav">
+        <nav id="nav" class="nav-screen">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
                 <span id="botao-nav"></span>
             </button>
             <ul id="menu" role="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Parceiros</a></li>            
-                <li><a href="#">Competições</a></li>
-                <li><a href="#">Filantropia</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="parceiros.html">Parceiros</a><li>            
+                <li><a href="competicoes.html">Competições</a></li>
+                <li><a href="preinscricao.html">Pré-inscrição</a></li>
+                <li><a href="#">Download</a></li>
             </ul>
         </nav>  
         <script src="scriptnav.js"></script>
@@ -42,8 +43,8 @@
             <div class="foto1">
                 <div class="blur-citacao">
                     <div class="text-intro">
-                        <blockquote class="title" cite="https://www.google.com/search?sa=X&q=Em+Busca+do+Tempo+Perdido&stick=H4sIAAAAAAAAAONgFuLQz9U3MLUoK1ACs7JMc_O0BBxLSzLyi0LynfLzs_3zcioXsUq65io4lRYnJyqk5CuEpOYW5CsEpBalZKbk72BlBACkxXVTRwAAAA&ved=2ahUKEwis-Z3_m8f6AhUjr5UCHfSHC2gQxA16BAheEAU&biw=1366&bih=649&dpr=1#" name="Em Busca Pelo Tempo Perdido">
-                            <q>Os laços que unem outras pessoas a nós só existe na nossa mente</q> - Proust 
+                        <blockquote class="title" cite="https://www.buritis.mg.gov.br/2014/10/27/a-mente-que-se-abre-a-uma-nova-ideia-jamais-voltara-ao-seu-tamanho-original-albert-einstein/#:~:text=original%E2%80%9D%20Albert%20Einstein%E2%80%9D-,%E2%80%9CA%20mente%20que%20se%20abre%20a%20uma%20nova%20ideia%20jamais,seu%20tamanho%20original%E2%80%9D%20Albert%20Einstein%E2%80%9D" name="Albert Einstein">
+                            <q>A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original</q> - ALbert Einstein
                         </blockquote>
                     </div>
                 </div>
@@ -108,10 +109,6 @@
                                     <img class="img-rank" src="img/dante.jpg" alt="livro2">
                                 </div>
                                 <div style="padding-left: 20px; display: flex;">
-                                    <h1 style="font-family: var(--font1);
-                                    font-size: 20px;
-                                    text-align: center;
-                                    color: var(--cor5); padding-right:5px;">3º</h1>
                                     <img class="img-rank" src="img/harrypotterpedra.jpg" alt="livro3">
                                 </div>
                             </div>
@@ -130,7 +127,6 @@
                                     <img class="img-rankg" src="img/terror.png" alt="terror">
                                 </div>
                                 <div style="display: flex; padding-left:25px;">
-                                    <h1 style="color: var(--cor5); padding-right:5px;">3º</h1>
                                     <img class="img-rankg" src="img/saude.png" alt="saúde">
                                 </div>
                             </div>
@@ -164,11 +160,11 @@
                     <div style="padding: 10px; border-right: 1px solid white;">
                         <ul>
                             <h3 style="font-size: 15px;">Paginas</h3>
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Parceiros</a></li>
-                            <li><a href="#">Filantropia</a></li>
-                            <li><a href="#">Competições</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="parceiros.html">Parceiros</a></li>
+                            <li><a href="competicoes.html">Competições</a></li>
+                            <li><a href="preinscricao.html">Pré-inscrição</a></li>
+                            <li><a href="#">Download</a></li>
                         </ul>
                     </div>
                     <div class="fim">
